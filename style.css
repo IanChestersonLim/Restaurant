@@ -4,11 +4,11 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background-image: url("bg.png");
     margin: 0;
 }
 
 header {
-    background-image: url("bg.png");
     background-size: cover;
     min-height: 100hv;
     background-position: center center;
@@ -78,7 +78,10 @@ nav a:hover {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     font-size: 2rem;
+    align-items: flex-start;
     margin-top: 5rem;
 }
 
